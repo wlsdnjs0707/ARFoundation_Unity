@@ -38,6 +38,7 @@ if (isButtonDown) // PointerDown 이벤트에서 true, PointerUp 이벤트에서
 수직 평면(벽)에는 가구가 배치되지 않게 함
 ```cs
 // arPlaneManager에서 가져온 평면의 속성 중 alignment (Vertical, Horizontal) 구분
+// HorizontalUp, HorizontalDown 일 경우 이동 
 if (arPlaneManager.GetPlane(hits[0].trackableId).alignment == PlaneAlignment.HorizontalUp || arPlaneManager.GetPlane(hits[0].trackableId).alignment == PlaneAlignment.HorizontalDown)
 {
   spawnObject.transform.position = hitPose.position;
