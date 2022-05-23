@@ -2,6 +2,8 @@
 AR 가구 배치 어플리케이션
 <br><br>
 
+<img src="https://user-images.githubusercontent.com/86781939/169832565-fd7c5f08-5d6b-47cd-b8cc-f42214c66474.png"  width="800" height="600" >
+
 ## # 주요 기능
 
 ### 1. 가구 배치
